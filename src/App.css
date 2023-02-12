@@ -1,38 +1,1143 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: GowunBold;
+  src: url(./assets/Gowun_Batang/GowunBatang-Regular.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  text-decoration: none;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.divBack{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.divBackSayHello{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.homeBox{
+  height: 64%;
+  width: 86%;
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+div.containerBack.container-fluid{
+  display: flex;
+  background-image: url(./assets/Shanks.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.containerBackSayHello.container-fluid{
+  display: flex;
+  background-image: url(./assets/drumIslandScene.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.containerBackOddOrEven.container-fluid{
+  display: flex;
+  background-image: url(./assets/marineford2.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.containerBackReverseIt.container-fluid{
+  display: flex;
+  background-image: url(./assets/sabodyScene.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.containerBackRestaurantPicker.container-fluid{
+  display: flex;
+  background-image: url(./assets/water7Scene.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.containerBackAdd2Numbers.container-fluid{
+  display: flex;
+  background-image: url(./assets/boaIslandScene.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.containerBackAskingQuestions.container-fluid{
+  display: flex;
+  background-image: url(./assets/eniesLobby.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.containerBackGreater.container-fluid{
+  display: flex;
+  background-image: url(./assets/fishmanIslandScene.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.containerBackMadLib.container-fluid{
+  display: flex;
+  background-image: url(./assets/punkHarardScene.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+div.containerBackStudentDirectory.container-fluid{
+  display: flex;
+  background-image: url(./assets/wanoScene.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2000px;
+}
+
+
+
+h1.titleText{
+  text-align: center;
+  font-family: Gowun;
+  font-size: 70px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1.titleTextSayHello{
+  font-family: Gowun;
+  font-size: 70px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1.outputTextSayHello{
+  font-family: Gowun;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+div.titleRow{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 50px;
+}
+
+div.titleRowSayHello{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.inputRowSayHello{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.outputRowSayHello{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.homeButtonRow{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+a.linkHome{
+  display: flex;
+  justify-content: right;
+}
+
+button.homeButton{
+  background-color: black;
+  border: none;
+  border-radius: 0;
+  width: 200px;
+  height: 100px;
+  font-size: 40px;
+  font-family: Gowun;
+  margin-right: 3%;
+  margin-bottom: 3.7%;
+}
+
+div.outputBoxSayHello{
+  width: 42%;
+  height: 350px;
+  background-color: rgba(152, 166, 236, 0.80);
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+div.outputBoxOddOrEven{
+  width: 42%;
+  height: 350px;
+  background-color: rgba(255, 239, 100, 0.80);
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+div.outputBoxReverseIt{
+  width: 42%;
+  height: 350px;
+  background-color: rgba(188, 255, 136, 0.80);
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+div.outputBoxRestaurantPicker{
+  width: 42%;
+  height: 350px;
+  background-color: rgba(200, 82, 255, 0.80);
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+div.outputBoxAdd2Numbers{
+  width: 42%;
+  height: 350px;
+  background-color: rgba(255, 124, 171, 0.80);
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+div.outputBoxAskingQuestions{
+  width: 42%;
+  height: 350px;
+  background-color: rgba(255, 255, 255, 0.80);
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+div.outputBoxGreater{
+  width: 42%;
+  height: 350px;
+  background-color: rgba(50, 95, 255, 0.50);
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+
+input.inputSayHello{
+  width: 84%;
+  height: 100px;
+  background-color: rgba(152, 166, 236, 0.80);
+  margin-top: 130px;
+  font-family: Gowun;
+  font-size: 40px;
+}
+
+input.inputOddOrEven{
+  width: 84%;
+  height: 100px;
+  background-color: rgba(255, 239, 100, 0.80);
+  margin-top: 130px;
+  font-family: Gowun;
+  font-size: 40px;
+}
+
+input.inputReverseIt{
+  width: 84%;
+  height: 100px;
+  background-color: rgba(188, 255, 136, 0.80);
+  margin-top: 130px;
+  font-family: Gowun;
+  font-size: 40px;
+}
+
+input.inputRestaurantPicker{
+  width: 84%;
+  height: 100px;
+  background-color: rgba(200, 82, 255, 0.80);
+  margin-top: 130px;
+  font-family: Gowun;
+  font-size: 40px;
+}
+
+input.inputAdd2Numbers{
+  width: 84%;
+  height: 100px;
+  background-color: rgba(255, 124, 171, 0.80);
+  margin-top: 130px;
+  font-family: Gowun;
+  font-size: 40px;
+}
+
+input.inputAskingQuestions{
+  width: 84%;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.80);
+  margin-top: 130px;
+  font-family: Gowun;
+  font-size: 40px;
+}
+
+input.inputGreater{
+  width: 84%;
+  height: 100px;
+  background-color: rgba(50, 95, 255, 0.50);
+  margin-top: 130px;
+  font-family: Gowun;
+  font-size: 40px;
+}
+
+div.titleBoxSayHello{
+  width: 56%;
+  height: 150px;
+  background-color: rgba(152, 166, 236, 0.80);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.titleBoxOddOrEven{
+  width: 56%;
+  height: 150px;
+  background-color: rgba(255, 239, 100, 0.80);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.titleBoxReverseIt{
+  width: 56%;
+  height: 150px;
+  background-color: rgba(188, 255, 136, 0.80);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.titleBoxRestaurantPicker{
+  width: 56%;
+  height: 150px;
+  background-color: rgba(200, 82, 255, 0.80);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.titleBoxAdd2Numbers{
+  width: 56%;
+  height: 150px;
+  background-color: rgba(255, 124, 171, 0.80);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.titleBoxAskingQuestions{
+  width: 56%;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.80);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.titleBoxMadLib{
+  width: 56%;
+  height: 150px;
+  background-color: rgba(133, 246, 255, 0.80);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.titleBoxGreater{
+  width: 56%;
+  height: 150px;
+  background-color: rgba(50, 95, 255, 0.50);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.titleBoxStudentDirectory{
+  width: 56%;
+  height: 150px;
+  background-color: rgba(254, 254, 254, 0.50);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.madRow1{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 86%;
+  margin-top: 30px;
+}
+
+input.inputmad1{
+  width: 200px;
+  height: 75px;
+  font-family: Gowun;
+  font-size: 30px;
+  background-color: rgba(133, 246, 255, 0.80);
+  margin-bottom: 50px;
+}
+
+input.inputmad2{
+  width: 200px;
+  height: 75px;
+  font-family: Gowun;
+  font-size: 30px;
+  background-color: rgba(238, 107, 99, 0.80);
+  margin-bottom: 50px;
+}
+
+div.colMad{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+button.submitButton{
+  width: 200px;
+  height: 75px;
+  background-color: black;
+  font-family: Gowun;
+  font-size: 30px;
+  border: none;
+  margin-bottom: 50px;
+}
+
+div.madOutputRow{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+div.madOutputBox{
+  background-color: rgba(238, 107, 99, 0.80);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 350px;
+  width: 62.5%;
+  text-align: center;
+}
+
+h1.madOutputText{
+  font-family: Gowun;
+  font-size: 20px;
+
+}
+
+div.studentRow{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 55px;
+}
+
+div.studentDropDown{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+div.studentOutput{
+  display: flex;
+  justify-content: center;
+}
+
+div.studentOutputBox{
+  width: 90%;
+  height: 600px;
+  background-color: rgba(255, 183, 197, 0.80);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+button#dropdown-basic.dropdownCss{
+  background-color: rgba(255, 183, 197, 0.80);
+  width: 500px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: black;
+  margin-bottom: 50px;
+}
+
+div.studentOutputRow{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.firstName{
+  font-family: Gowun;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.firstNameOutput{
+  font-family: Gowun;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.lastName{
+  font-family: Gowun;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.lastNameOutput{
+  font-family: Gowun;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.slackName{
+  font-family: Gowun;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.slackNameOutput{
+  font-family: Gowun;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.email{
+  font-family: Gowun;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.emailOutput{
+  font-family: Gowun;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.hobbies{
+  font-family: Gowun;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.hobbiesOutput{
+  font-family: Gowun;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+div.columnRow{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 77%;
+}
+
+.columnBox{
+  width: 78%;
+  height: 20%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  /* border-style: solid;
+  border-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+}
+
+.columnBox3{
+  width: 78%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  /* border-style: solid;
+  border-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+}
+
+.columnBox2{
+  width: 78%;
+  height: 20%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  /* border-style: solid;
+  border-color: red; */
+  margin-bottom: 10%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+}
+
+.columnBox4{
+  width: 78%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 01);
+  /* border-style: solid;
+  border-color: red; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+}
+
+a.linkMad{
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+div.columns.col{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.columns2.col{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.columnText{
   color: white;
+  font-family: Gowun;
+  font-size: 30px;
+  margin: 0;
+
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  /* div.containerBack.container-fluid{
+
+  } */
+
+  .columnRow{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .homeBox{
+    height: auto;
+    height: 66%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+  }
+
+  .columnBox{
+    height: 100px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+  }
+
+  .columnBox2{
+    height: 100px;
+    margin: 0;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+  }
+
+  .columnBox3{
+    width: 78%;
+    height: 100px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .columnBox4{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  a{
+    margin-bottom: 50px;
+    height: 100%;
+  }
+
+  div.columns.col{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  div.columns2.col{
+    display: flex;
+    justify-content: flex-start;
+    height: 200px !important;
+  }
+
+  div.columnRow{
+    height: 1350px;
+  }
+
+  a.linkMad{
+    margin: 0;
+    margin-bottom: 50px;
+    height: 100px;
+  }
+
+  a.linkOdd{
+    height: 100px;
+  }
+
+  div.studentRow{
+    display: flex;
+    flex-direction: column;
+  }
+
+  button#dropdown-basic.dropdownCss{
+    margin-bottom: 50px;
+    width: 400px;
+  }
+  
+
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 767px) {
+
+  /* div.containerBack.container-fluid{
+
+  } */
+
+  h1.titleTextSayHello{
+    font-size: 50px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .columnRow{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
+
+  .homeBox{
+    height: auto;
+    height: 66%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+
+  .columnBox{
+    height: 100px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+  }
+
+  .columnBox2{
+    height: 100px;
+    margin: 0;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+  }
+
+  .columnBox3{
+    width: 78%;
+    height: 100%;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .columnBox4{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  a{
+    margin-bottom: 50px;
+    height: 100px;
+  }
+
+  a.studentGroup.dropdown-item{
+    height: auto;
+  }
+
+  div.columns.col{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  div.columns2.col{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  div.columnRow{
+    height: 1350px;
+  }
+
+  a.linkMad{
+    margin: 0;
+    margin-bottom: 50px;
+    height: 100px;
+  }
+  
+  div.columnRow{
+    height: 1350px;
+  }
+
+  div.outputBoxSayHello{
+    width: 90%;
+    height: 350px;
+    background-color: rgba(152, 166, 236, 0.80);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.homeButtonRow{
+    display: flex;
+    justify-content: center;
+  }
+
+  a.linkHome{
+    display: flex;
+    justify-content: center;
+  }
+  
+  button.homeButton{
+    margin-right: 0;
+  }
+
+  input.inputRestaurantPicker{
+    font-size: 25px;
+  }
+
+  div.studentRow{
+    display: flex;
+    flex-direction: column;
+  }
+
+  button#dropdown-basic.dropdownCss{
+    margin-bottom: 50px;
+    width: 200px;
+  }
+
+  div.outputBoxSayHello{
+    width: 90%;
+  }
+  
+  div.outputBoxOddOrEven{
+    width: 90%;
+  }
+  
+  div.outputBoxReverseIt{
+    width: 90%;
+  }
+  
+  div.outputBoxRestaurantPicker{
+    width: 90%;
+  }
+  
+  div.outputBoxAdd2Numbers{
+    width: 90%;
+  }
+  
+  div.outputBoxAskingQuestions{
+    width: 90%;
+  }
+  
+  div.outputBoxGreater{
+    width: 90%;
+  }
+
+  div.madOutputBox{
+    width: 90%;
+  }
+
+  div.studentOutputBox{
+    width: 100%;
+  }
+
+  div.studentOutputRow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div.firstName{
+    width: 100%;
+  }
+
+  div.firstNameOutput{
+    width: 100%;
+  }
+
+  div.lastName{
+    width: 100%;
+  }
+
+  div.lastNameOutput{
+    width: 100%;
+  }
+
+  div.slackName{
+    width: 100%;
+  }
+
+  div.slackNameOutput{
+    width: 100%;
+  }
+
+  div.email{
+    width: 100%;
+  }
+
+  div.emailOutput{
+    width: 100%;
+  }
+
+  div.hobbies{
+    width: 100%;
+  }
+
+  div.hobbiesOutput{
+    width: 100%;
+  }
+  
+  
 }
+
